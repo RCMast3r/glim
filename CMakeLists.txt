@@ -94,7 +94,7 @@ target_include_directories(glim PUBLIC
   $<INSTALL_INTERFACE:include/glim>
   ${OpenCV_INCLUDE_DIRS}
 )
-target_link_libraries(glim
+target_link_libraries(glim PUBLIC
   Boost::boost
   Boost::serialization
   Eigen3::Eigen

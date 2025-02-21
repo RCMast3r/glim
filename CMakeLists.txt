@@ -99,7 +99,7 @@ target_link_libraries(glim PUBLIC
   Boost::serialization
   Eigen3::Eigen
   # GTSAM::GTSAM
-  gtsam
+  gtsam_unstable
   gtsam_points::gtsam_points
   OpenMP::OpenMP_CXX
   spdlog::spdlog
